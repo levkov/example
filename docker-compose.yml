@@ -4,9 +4,6 @@ dev:
   - "22"
   - "9001"
   - "80"
-  dns:
-  - 172.16.14.71
-  - 172.16.14.72
   hostname: example
   environment:
     RACK_ENV: development
