@@ -3,7 +3,7 @@ MAINTAINER levkov
 
 RUN rm -f /etc/localtime && ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 RUN yum update -y
-RUN rpm -iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+RUN rpm -iUvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 RUN yum install -y python-pip
 RUN yum install -y openssh-server
 RUN yum install -y openssh-clients
